@@ -47,14 +47,47 @@ function App() {
         </a>
       </section>
 
-      <section className="section-4 flex flex-row center">
-        <div className="flex flex-col align-middle">
-          <h3 className="text-yellow-800 text-lg max-w-full leading-5 w-full font-barlow border-b-2 border-yellow-800">Step 1: Treat Eyes MARINE ALGAE EYE CREAM</h3>
+      <section className="section-4 flex flex-row justify-center">
+        <div className="flex flex-col justify-center max-w-sm mr-9">
+          <h3 className="uppercase text-yellow-800 text-lg max-w-full leading-5 w-full font-barlow border-b-2 border-yellow-800 pb-4 mb-4">STEP 1: TREAT EYES MARINE ALGAE EYE CREAM</h3>
           <p>Rise and shine with a melt-in hydrator to lift, firm, and instantly smooth skin</p>
-          <button className="bg-yellow-800 text-white font-barlow text-sm uppercase px-4 py-2">SHOW NOW</button>
+          <button className="bg-yellow-800 text-white font-barlow text-sm uppercase px-4 py-2 w-28 mt-6">SHOW NOW</button>
         </div>
         <div>
-          <img alt="Step 1: Treat Eyes<br>MARINE ALGAE EYE CREAM" className="transition-in ls-is-cached lazyloaded" width="500" height="500" src="//cdn.shopify.com/s/files/1/0806/5829/files/22_0307_WB_EB_P4638_SPFBONUS_Desktop_MAEC_Desktop_162df178-f442-4eab-8722-f6ee35a5d73b_500x.jpg?v=1659127383" />
+          <img alt="Step 1: Treat Eyes MARINE ALGAE EYE CREAM" width="500" height="500" src="//cdn.shopify.com/s/files/1/0806/5829/files/22_0307_WB_EB_P4638_SPFBONUS_Desktop_MAEC_Desktop_162df178-f442-4eab-8722-f6ee35a5d73b_500x.jpg?v=1659127383" />
+        </div>
+      </section >
+
+      <section className="section-5 flex flex-row justify-center">
+        <div>
+          <img alt="Step 2: Treat Complexion VITAMIN C DARK SPOT SERUM" width="500" height="500" src="//cdn.shopify.com/s/files/1/0806/5829/files/22_0307_WB_EB_P4638_SPFBONUS_Desktop_DSpot_Desktop_e54e452c-be5e-4422-b693-3c4aa38cac0f_500x.jpg?v=1659127375" />
+        </div>
+        <div className="flex flex-col justify-center max-w-sm mr-9">
+          <h3 className="uppercase text-yellow-800 text-lg max-w-full leading-5 w-full font-barlow border-b-2 border-yellow-800 pb-4 mb-4">STEP 2: TREAT COMPLEXION VITAMIN C DARK SPOT SERUM</h3>
+          <p>For skin that’s brighter than the sun—a lightweight treatment to fade and prevent dark spots</p>
+          <button className="bg-yellow-800 text-white font-barlow text-sm uppercase px-4 py-2 w-28 mt-6">SHOW NOW</button>
+        </div>
+      </section >
+
+      <section className="section-6 flex flex-row justify-center">
+        <div className="flex flex-col justify-center max-w-sm mr-9">
+          <h3 className="uppercase text-yellow-800 text-lg max-w-full leading-5 w-full font-barlow border-b-2 border-yellow-800 pb-4 mb-4">STEP 3: MOISTURIZE VITAMIN C ROSE OIL</h3>
+          <p>Keep the glow glowing with a results-driven blend that brightens, firms, and hydrates in one step</p>
+          <button className="bg-yellow-800 text-white font-barlow text-sm uppercase px-4 py-2 w-28 mt-6">SHOW NOW</button>
+        </div>
+        <div>
+          <img alt="Step 1: Treat Eyes MARINE ALGAE EYE CREAM" width="500" height="500" src="//cdn.shopify.com/s/files/1/0806/5829/files/22_0307_WB_EB_P4638_SPFBONUS_Desktop_Rose_Desktop_3c0ec4e3-4bd0-4a69-93ba-40ed55dbcd37_500x.jpg?v=1659127360" />
+        </div>
+      </section >
+
+      <section className="section-5 flex flex-row justify-center">
+        <div>
+          <img alt="Step 2: Treat Complexion VITAMIN C DARK SPOT SERUM" width="500" height="500" src="//cdn.shopify.com/s/files/1/0806/5829/files/22_0307_WB_EB_P4638_SPFBONUS_Desktop_SPF_Desktop_c1cd878c-7cc2-466c-8dd3-0bc6abc6ddc5_500x.jpg?v=1659127352" />
+        </div>
+        <div className="flex flex-col justify-center max-w-sm mr-9">
+          <h3 className="uppercase text-yellow-800 text-lg max-w-full leading-5 w-full font-barlow border-b-2 border-yellow-800 pb-4 mb-4">STEP 4: PROTECT ZINC SHEER MINERAL SUNSCREEN</h3>
+          <p>A powerfully invisible SPF 30 to shield your skin from damaging rays and deeply hydrate</p>
+          <button className="bg-yellow-800 text-white font-barlow text-sm uppercase px-4 py-2 w-28 mt-6">SHOW NOW</button>
         </div>
       </section >
     </div >
