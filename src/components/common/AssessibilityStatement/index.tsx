@@ -10,13 +10,15 @@ const AssesibilityStatement = ({ headline, paragraph }: IAssessibilityStatement
   const {
     container,
     containerHeadline,
-    containerParagraph
+    containerParagraph,
+    headlineStyle
   } = styles
 
   return (
     <div className={container}>
       <div className={containerHeadline}>
         <Text
+          className={headlineStyle}
           textType={'headline'}>
           {headline}
         </Text>
